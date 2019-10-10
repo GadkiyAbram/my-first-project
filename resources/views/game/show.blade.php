@@ -4,24 +4,15 @@
 
 @section('content')
 	<div class="row">
-		<div class="col-12">
-			<h2>Game</h2>
-			<p>You won:  {{ $prize }}, and {{ $giftSelected }}</p>
-			<p>Remains:  </p>
-			<ul>
-				@foreach($giftsArray as $gift)
-					<div>{{ $gift }}</div>
-				@endforeach
-			</ul>
-		</div>
+
 		<div>
-			<div>Final Prize: {{ $finalPrize }}</div>
-			<div class="pt-3">
-				<form action="game" method="GET">
-
+			<div>You won: {{ $finalPrize }}</div>
+			<div class="pt-3 d-flex">
+				<form class="pr-3" action="/game" method="GET">
 					<button type="submit" class="btn btn-primary">No, I don't need it</button>
+				</form>
+				<form action="/game">
 					<button type="submit" class="btn btn-primary">Take Prize of {{ $finalPrize }}</button>
-
 				</form>
 			</div>
 		</div>

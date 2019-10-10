@@ -55,7 +55,6 @@ class GameController extends Controller
 
         return view('game.show', compact('prize',
             'usdAmount',
-//            'moneyUpdt',
             'giftsArray',
             'giftSelected',
             'finalPrize'));
