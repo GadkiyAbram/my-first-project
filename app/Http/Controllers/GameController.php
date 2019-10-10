@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Game;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Mockery\Matcher\Pattern;
 
@@ -12,6 +13,21 @@ class GameController extends Controller
     public function index()
     {
         return view('game.index');
+    }
+
+    private function getUsdAmount()
+    {
+
+    }
+
+    private function getGift()
+    {
+
+    }
+
+    private function getBonus()
+    {
+        return rand(0, 100);
     }
 
     public function show()
@@ -46,7 +62,7 @@ class GameController extends Controller
 //        fclose($handle);
 
         //Bonuses loyalty
-        $bonus = rand(1, 100);
+        $bonus = $this->getBonus();
 
         array_push($finalPrizeArray, $prize . ' USD', $giftSelected, $bonus . ' bonuses');
 
@@ -58,5 +74,19 @@ class GameController extends Controller
             'giftsArray',
             'giftSelected',
             'finalPrize'));
+    }
+
+    public function update(){
+
+        $bonus = Auth::user()->profile->bonus_count;
+        $finalBonus = $bonus + $this->getBonus();
+
+        Auth::user()->profile()->update([
+//            'bonus_count' => $this->$finalBonus
+//            'bonus_count' => $finalBonus
+            'bonus_count' => $finalBonus
+        ]);
+
+        return redirect('game');
     }
 }
