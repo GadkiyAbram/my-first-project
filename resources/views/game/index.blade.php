@@ -1,20 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Game')
+@section('title', 'Result')
 
 @section('content')
-	<div class="row">
-		<div class="col-12">
-			<h2>Game</h2>
-			<p>You won:  {{ $prize }}, and {{ $giftSelected }}</p>
-			<p>Remains:  </p>
-			<ul>
-				@foreach($giftsArray as $gift)
-					<div>{{ $gift }}</div>
-				@endforeach
-			</ul>
-		</div>
-		<div>Final Prize: {{ $finalPrize }}</div>
+	<div>Hello, {{ Auth::user()->name }}</div>
+	<div class="pt-2">
+		<form action="game/show" method="GET">
+
+			<button type="submit" class="btn btn-primary">Play Game</button>
+
+		</form>
 	</div>
 
 @endsection

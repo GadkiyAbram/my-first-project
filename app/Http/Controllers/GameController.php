@@ -11,12 +11,17 @@ class GameController extends Controller
 {
     public function index()
     {
+        return view('game.index');
+    }
+
+    public function show()
+    {
         $finalPrizeArray = [];
 
         //Money gifts
-        $file = File::get(storage_path('awards\money'));
-        $prize = rand(10, ((int)$file) / 9000);
-//        $moneyUpdt = (int)$file - $prize;
+        $usdAmount = File::get(storage_path('awards\money'));
+        $prize = rand(10, ((int)$usdAmount) / 9000);
+//        $moneyUpdt = (int)$usdAmount - $prize;
 
 //        Deleting USD amount from Array
 //        $handle = fopen('../storage/awards/money', 'w');
@@ -48,7 +53,8 @@ class GameController extends Controller
         $finalPrizeIndex = rand(0, count($finalPrizeArray, COUNT_NORMAL) - 1);
         $finalPrize = $finalPrizeArray[$finalPrizeIndex];
 
-        return view('game.index', compact('prize',
+        return view('game.show', compact('prize',
+            'usdAmount',
 //            'moneyUpdt',
             'giftsArray',
             'giftSelected',
