@@ -29,6 +29,8 @@ Route::view('about', 'about');
 Route::resource('customers', 'CustomersController');
 Route::resource('game', 'GameController')->middleware('auth');
 
+Route::post('game/update', 'GameController@update');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

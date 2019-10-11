@@ -25,11 +25,6 @@ class GameController extends Controller
 
     }
 
-    private function getBonus()
-    {
-        return rand(0, 100);
-    }
-
     public function show()
     {
         $finalPrizeArray = [];
@@ -62,9 +57,9 @@ class GameController extends Controller
 //        fclose($handle);
 
         //Bonuses loyalty
-        $bonus = $this->getBonus();
+        $bonus = rand(0, 100);
 
-        array_push($finalPrizeArray, $prize . ' USD', $giftSelected, $bonus . ' bonuses');
+        array_push($finalPrizeArray, $prize . ' USD', $giftSelected, $bonus);
 
         $finalPrizeIndex = rand(0, count($finalPrizeArray, COUNT_NORMAL) - 1);
         $finalPrize = $finalPrizeArray[$finalPrizeIndex];
@@ -76,14 +71,12 @@ class GameController extends Controller
             'finalPrize'));
     }
 
-    public function update(){
+    public function update(Request $request){
 
         $bonus = Auth::user()->profile->bonus_count;
-        $finalBonus = $bonus + $this->getBonus();
+        $finalBonus = $bonus + $request->input('prize');
 
         Auth::user()->profile()->update([
-//            'bonus_count' => $this->$finalBonus
-//            'bonus_count' => $finalBonus
             'bonus_count' => $finalBonus
         ]);
 
