@@ -17,12 +17,21 @@ class GameController extends Controller
 
     private function getUsdAmount()
     {
+        $usdAmount = File::get(storage_path('awards\money'));
+        $prize = rand(10, ((int)$usdAmount) / 90000);
 
+        return $prize;
     }
 
     private function getGift()
     {
+        $gifts = File::get(storage_path('awards\gifts'));
+        $giftsString = (string)$gifts;
+        $giftsArray = preg_split("/,/", $giftsString);
+        $indexSelected = rand(0, count($giftsArray, COUNT_NORMAL) - 1);
+        $giftSelected = $giftsArray[$indexSelected];
 
+        return $giftSelected;
     }
 
     public function show()
@@ -30,8 +39,10 @@ class GameController extends Controller
         $finalPrizeArray = [];
 
         //Money gifts
-        $usdAmount = File::get(storage_path('awards\money'));
-        $prize = rand(10, ((int)$usdAmount) / 9000);
+        $moneyPrize = $this->getUsdAmount();
+        $giftPrize = $this->getGift();
+        $bonusGift = rand(0, 100);
+
 //        $moneyUpdt = (int)$usdAmount - $prize;
 
 //        Deleting USD amount from Array
@@ -39,17 +50,11 @@ class GameController extends Controller
 //        fwrite($handle, (string)$moneyUpdt);
 //        fclose($handle);
 
-        //Gifts phisical
-        $file = File::get(storage_path('awards\gifts'));
-        $giftsString = (string)$file;
-        $giftsArray = preg_split("/,/", $giftsString);
+        //Gifts physical
 
-        $indexSelected = rand(0, count($giftsArray, COUNT_NORMAL) - 1);
-        $giftSelected = $giftsArray[$indexSelected];
+//        unset($giftsArray[$indexSelected]);
 
-        unset($giftsArray[$indexSelected]);
-
-        $newGiftArray = implode(',', $giftsArray);
+//        $newGiftArray = implode(',', $giftsArray);
 
 //        Deleting gift from Array
 //        $handle = fopen('../storage/awards/gifts', 'w');
@@ -57,24 +62,26 @@ class GameController extends Controller
 //        fclose($handle);
 
         //Bonuses loyalty
-        $bonus = rand(0, 100);
 
-        array_push($finalPrizeArray, $prize . ' USD', $giftSelected, $bonus);
+        array_push($finalPrizeArray, $moneyPrize, $giftPrize, $bonusGift);
 
         $finalPrizeIndex = rand(0, count($finalPrizeArray, COUNT_NORMAL) - 1);
         $finalPrize = $finalPrizeArray[$finalPrizeIndex];
 
-        return view('game.show', compact('prize',
-            'usdAmount',
-            'giftsArray',
-            'giftSelected',
-            'finalPrize'));
+        return view('game.show', compact(
+//            'moneyPrize',
+//            'usdAmount',
+//            'giftPrize',
+            'finalPrize'
+//            'giftsArray',
+//        'finalPrizeArray'
+        ));
     }
 
     public function update(Request $request){
 
         $bonus = Auth::user()->profile->bonus_count;
-        $finalBonus = $bonus + $request->input('prize');
+        $finalBonus = $bonus + $request->input('finalPrize');
 
         Auth::user()->profile()->update([
             'bonus_count' => $finalBonus
