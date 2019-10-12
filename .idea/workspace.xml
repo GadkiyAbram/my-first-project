@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3909e39-d0a6-4bf9-b713-0b03b0c6ca6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/contact/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/contact/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,17 +21,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="391">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resources/views/nav.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../resources/views/customers/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/Http/Middleware/TestMiddleware.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resources/views/contact/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -81,7 +118,6 @@
         <option value="$PROJECT_DIR$/../resources/views/internals/customers.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/index.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/create.blade.php" />
-        <option value="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/form.blade.php" />
         <option value="$PROJECT_DIR$/../app/Customer.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/show.blade.php" />
@@ -90,7 +126,6 @@
         <option value="$PROJECT_DIR$/../resources/views/emails/contact/contact-form.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/../app/Http/Controllers/ContactFormController.php" />
-        <option value="$PROJECT_DIR$/../resources/views/contact/create.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/about.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
@@ -105,7 +140,6 @@
         <option value="$PROJECT_DIR$/../storage/awards/gifts" />
         <option value="$PROJECT_DIR$/../resources/views/game/play.blade.php" />
         <option value="$PROJECT_DIR$/../app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/../resources/views/nav.blade.php" />
         <option value="$PROJECT_DIR$/../database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/../database/migrations/2019_10_10_135443_add_bonuses_to_users.php" />
         <option value="$PROJECT_DIR$/../database/migrations/2019_10_10_155326_add_bonuses_to_users.php" />
@@ -117,8 +151,11 @@
         <option value="$PROJECT_DIR$/../resources/views/game/show.blade.php" />
         <option value="$PROJECT_DIR$/../app/Http/Controllers/GameController.php" />
         <option value="$PROJECT_DIR$/../app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/../routes/web.php" />
         <option value="$PROJECT_DIR$/../app/Http/Middleware/TestMiddleware.php" />
+        <option value="$PROJECT_DIR$/../resources/views/contact/create.blade.php" />
+        <option value="$PROJECT_DIR$/../routes/web.php" />
+        <option value="$PROJECT_DIR$/../resources/views/nav.blade.php" />
+        <option value="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -348,7 +385,7 @@
       <workItem from="1570342732150" duration="681000" />
       <workItem from="1570343765613" duration="34876000" />
       <workItem from="1570610996550" duration="27570000" />
-      <workItem from="1570706436716" duration="28618000" />
+      <workItem from="1570706436716" duration="30229000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, &#10;Laravel Tutorial e06 - done">
       <created>1570345753362</created>
@@ -518,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570864373161</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding a middleware">
+      <created>1570865556257</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570865556257</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91745000" />
+    <option name="totallyTimeSpent" value="93356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -626,7 +670,8 @@
     <MESSAGE value="The following logic set up:&#10;&#10;calculating bonuses and displaying the results" />
     <MESSAGE value="The following logic set up:&#10;&#10;calculating bonuses and displaying the results&#10;adding bonuses to user's profile" />
     <MESSAGE value="The following logic set up:&#10;&#10;Version just to be sure" />
-    <option name="LAST_COMMIT_MESSAGE" value="The following logic set up:&#10;&#10;Version just to be sure" />
+    <MESSAGE value="Adding a middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a middleware" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../app/Company.php">
@@ -739,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../resources/views/contact/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../resources/views/customers/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -811,13 +849,6 @@
         <state relative-caret-position="-1105" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../resources/views/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -846,9 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/ContactFormController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -866,13 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../resources/views/customers/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -924,17 +945,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../app/Http/Middleware/TestMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resources/views/contact/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resources/views/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resources/views/customers/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
         </state>
       </provider>
     </entry>
