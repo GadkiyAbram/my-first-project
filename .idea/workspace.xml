@@ -4,8 +4,7 @@
     <list default="true" id="a3909e39-d0a6-4bf9-b713-0b03b0c6ca6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_10_08_044618_create_companies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/migrations/2019_10_08_044618_create_companies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -40,31 +39,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/Providers/EventServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/../.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding>
-                <element signature="e#33#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../app/Listeners/NotifyAdminViaSlack.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="126">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../config/queue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_13_060947_create_jobs_table.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="459">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#35#67#0#PHP" expanded="true" />
               </folding>
@@ -100,6 +101,7 @@
       <find>@extends('app')</find>
       <find>show</find>
       <find>get</find>
+      <find>welcom</find>
     </findStrings>
     <replaceStrings>
       <replace>@extends('app')</replace>
@@ -121,7 +123,6 @@
         <option value="$PROJECT_DIR$/../resources/views/customers/form.blade.php" />
         <option value="$PROJECT_DIR$/../app/Customer.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/show.blade.php" />
-        <option value="$PROJECT_DIR$/../.env" />
         <option value="$PROJECT_DIR$/../app/Mail/ContactFormMail.php" />
         <option value="$PROJECT_DIR$/../resources/views/emails/contact/contact-form.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/layout.blade.php" />
@@ -163,11 +164,12 @@
         <option value="$PROJECT_DIR$/../database/migrations/2019_10_08_044618_create_companies_table.php" />
         <option value="$PROJECT_DIR$/../resources/views/emails/new-welcome.blade.php" />
         <option value="$PROJECT_DIR$/../app/Events/NewCustomerHasRegisteredEvent.php" />
-        <option value="$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php" />
         <option value="$PROJECT_DIR$/../app/Listeners/RegisterCustomerToNewsLetter.php" />
-        <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
         <option value="$PROJECT_DIR$/../app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/../app/Listeners/NotifyAdminViaSlack.php" />
+        <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
+        <option value="$PROJECT_DIR$/../.env" />
+        <option value="$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php" />
       </list>
     </option>
   </component>
@@ -433,7 +435,7 @@
       <workItem from="1570342732150" duration="681000" />
       <workItem from="1570343765613" duration="34876000" />
       <workItem from="1570610996550" duration="27570000" />
-      <workItem from="1570706436716" duration="37325000" />
+      <workItem from="1570706436716" duration="39476000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, &#10;Laravel Tutorial e06 - done">
       <created>1570345753362</created>
@@ -631,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570896457447</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="e28 - done&#10;&#10;Adding Events &amp; Listeners. Example to follow here&#10;Manually &amp; using artisan">
+      <created>1570945653195</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1570945653195</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100452000" />
+    <option name="totallyTimeSpent" value="102603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -717,7 +726,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Laravel Tutorial e07 - done&#10;Sqlite configured, adding / displaying to / from Sqlite DB" />
     <MESSAGE value="Laravel Tutorial e08 - done&#10;Sqlite configured, adding / displaying to / from Sqlite DB using UI" />
     <MESSAGE value="Laravel Tutorial e09 - done&#10;Input validating done + |regex:/^[a-zA-Z]/ - check to be only letters" />
     <MESSAGE value="Laravel Tutorial e10 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now)&#10;Added email field + validation the string to be an email address" />
@@ -742,28 +750,10 @@
     <MESSAGE value="e24 - done&#10;URL helpers" />
     <MESSAGE value="e24 - done&#10;npm setting up&#10;&#10;* rm -rf node_modules &amp;&amp; npm install - to delete node modules if the error while npm run watch comes up" />
     <MESSAGE value="e26 - done&#10;Button example using VUE, api exp&#10;&#10;* rm -rf node_modules &amp;&amp; npm install - to delete node modules if the error while npm run watch comes up" />
-    <option name="LAST_COMMIT_MESSAGE" value="e26 - done&#10;Button example using VUE, api exp&#10;&#10;* rm -rf node_modules &amp;&amp; npm install - to delete node modules if the error while npm run watch comes up" />
+    <MESSAGE value="e28 - done&#10;&#10;Adding Events &amp; Listeners. Example to follow here&#10;Manually &amp; using artisan" />
+    <option name="LAST_COMMIT_MESSAGE" value="e28 - done&#10;&#10;Adding Events &amp; Listeners. Example to follow here&#10;Manually &amp; using artisan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../storage/awards/money">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1046,30 +1036,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php">
+    <entry file="file://$PROJECT_DIR$/../app/Listeners/NotifyAdminViaSlack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#35#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Listeners/RegisterCustomerToNewsLetter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1083,10 +1053,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Listeners/NotifyAdminViaSlack.php">
+    <entry file="file://$PROJECT_DIR$/../app/Listeners/RegisterCustomerToNewsLetter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="136">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_13_060947_create_jobs_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#35#67#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
