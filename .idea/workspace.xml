@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../app/Console/Commands/AddCompanyCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            <state relative-caret-position="394">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -321,7 +321,7 @@
       <workItem from="1570706436716" duration="48936000" />
       <workItem from="1571029340815" duration="99000" />
       <workItem from="1571029487488" duration="123000" />
-      <workItem from="1571029764326" duration="2663000" />
+      <workItem from="1571029764326" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, &#10;Laravel Tutorial e06 - done">
       <created>1570345753362</created>
@@ -540,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571030345735</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="e34 - done&#10;&#10;Writing artisan commands">
+      <created>1571032471507</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1571032471507</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114948000" />
+    <option name="totallyTimeSpent" value="116595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -640,7 +647,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Laravel Tutorial e10 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now)&#10;Added email field + validation the string to be an email address" />
     <MESSAGE value="Laravel Tutorial e11 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now)&#10;Storing data into two separate vars, displaying accordingly" />
     <MESSAGE value="Laravel Tutorial e14 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now) (template)&#10;Added Company input field, adding customers accordingly" />
     <MESSAGE value="Laravel Tutorial e15 - done&#10;Spit the create / list displaying" />
@@ -665,7 +671,8 @@
     <MESSAGE value="e28 - done&#10;&#10;Adding Events &amp; Listeners. Example to follow here&#10;Manually &amp; using artisan" />
     <MESSAGE value="e29 - done&#10;&#10;Queues, request handling" />
     <MESSAGE value="e30 - done&#10;&#10;Queues logs set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="e30 - done&#10;&#10;Queues logs set up" />
+    <MESSAGE value="e34 - done&#10;&#10;Writing artisan commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="e34 - done&#10;&#10;Writing artisan commands" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_10_155326_add_bonuses_to_users.php" />
@@ -728,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/Console/Commands/AddCompanyCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+        <state relative-caret-position="394">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
