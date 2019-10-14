@@ -11,7 +11,8 @@
 
 	<div class="row">
 		<col-12>
-			<form action="/customers" method="POST">
+			{{--<form action="/customers" method="POST">--}}
+			<form action="{{ route('customers.store') }}" method="POST" enctype="multipart/form-data">
 
 				@include('customers.form')
 
