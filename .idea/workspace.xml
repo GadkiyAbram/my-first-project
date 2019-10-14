@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3909e39-d0a6-4bf9-b713-0b03b0c6ca6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_10_13_060947_create_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../public/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../storage/logs/jobs.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="-9">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../app/Console/Commands/AddCompanyCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -51,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../resources/views/customers/create.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/form.blade.php" />
         <option value="$PROJECT_DIR$/../app/Customer.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/show.blade.php" />
@@ -102,6 +114,7 @@
         <option value="$PROJECT_DIR$/../resources/views/game/show.blade.php" />
         <option value="$PROJECT_DIR$/../routes/web.php" />
         <option value="$PROJECT_DIR$/../.env" />
+        <option value="$PROJECT_DIR$/../app/Console/Commands/AddCompanyCommand.php" />
       </list>
     </option>
   </component>
@@ -220,6 +233,24 @@
             <path>
               <item name="." type="b2602c69:ProjectViewProjectNode" />
               <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,7 +271,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -290,7 +321,7 @@
       <workItem from="1570706436716" duration="48936000" />
       <workItem from="1571029340815" duration="99000" />
       <workItem from="1571029487488" duration="123000" />
-      <workItem from="1571029764326" duration="478000" />
+      <workItem from="1571029764326" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, &#10;Laravel Tutorial e06 - done">
       <created>1570345753362</created>
@@ -502,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570947771818</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="e30 - done&#10;&#10;Queues logs set up">
+      <created>1571030345734</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1571030345735</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112763000" />
+    <option name="totallyTimeSpent" value="114948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -602,7 +640,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Laravel Tutorial e09 - done&#10;Input validating done + |regex:/^[a-zA-Z]/ - check to be only letters" />
     <MESSAGE value="Laravel Tutorial e10 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now)&#10;Added email field + validation the string to be an email address" />
     <MESSAGE value="Laravel Tutorial e11 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now)&#10;Storing data into two separate vars, displaying accordingly" />
     <MESSAGE value="Laravel Tutorial e14 - done&#10;Input validating done &#10;+ |regex:/^[a-zA-Z]/ (deleted for now) (template)&#10;Added Company input field, adding customers accordingly" />
@@ -627,10 +664,10 @@
     <MESSAGE value="e26 - done&#10;Button example using VUE, api exp&#10;&#10;* rm -rf node_modules &amp;&amp; npm install - to delete node modules if the error while npm run watch comes up" />
     <MESSAGE value="e28 - done&#10;&#10;Adding Events &amp; Listeners. Example to follow here&#10;Manually &amp; using artisan" />
     <MESSAGE value="e29 - done&#10;&#10;Queues, request handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="e29 - done&#10;&#10;Queues, request handling" />
+    <MESSAGE value="e30 - done&#10;&#10;Queues logs set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="e30 - done&#10;&#10;Queues logs set up" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_10_135443_add_bonuses_to_users.php" />
     <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_10_155326_add_bonuses_to_users.php" />
     <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_10_155658_add_bonuses_to_users.php" />
     <entry file="file://$PROJECT_DIR$/../database/migrations/2014_10_12_000000_create_users_table.php" />
@@ -656,7 +693,6 @@
     <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/TestingVueController.php" />
     <entry file="file://$PROJECT_DIR$/../app/Customer.php" />
     <entry file="file://$PROJECT_DIR$/../app/Company.php" />
-    <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_08_044618_create_companies_table.php" />
     <entry file="file://$PROJECT_DIR$/../resources/views/customers/form.blade.php" />
     <entry file="file://$PROJECT_DIR$/../app/Mail/WelcomeNewUserMail.php" />
     <entry file="file://$PROJECT_DIR$/../resources/views/emails/new-welcome.blade.php" />
@@ -681,7 +717,24 @@
     <entry file="file://$PROJECT_DIR$/../storage/logs/job.log" />
     <entry file="file://$PROJECT_DIR$/../app/Listeners/WelcomeNewCustomerListener.php" />
     <entry file="file://$PROJECT_DIR$/../storage/logs/jobs.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-9">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_08_044618_create_companies_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Console/Commands/AddCompanyCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
