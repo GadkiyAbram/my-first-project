@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3909e39-d0a6-4bf9-b713-0b03b0c6ca6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/my-first-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/my-first-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../database/migrations/2019_10_06_072009_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../database/migrations/2019_10_06_072009_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/customers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/customers/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/customers/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,38 +22,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resources/views/customers/form.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+            <state relative-caret-position="377">
+              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resources/views/customers/show.blade.php">
+        <entry file="file://$PROJECT_DIR$/../config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
+            <state relative-caret-position="330">
+              <caret line="209" selection-start-line="209" selection-end-line="209" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../database/seeds/CompaniesTableSeeder.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -69,6 +63,10 @@
       <find>show</find>
       <find>get</find>
       <find>welcom</find>
+      <find>create</find>
+      <find>provi</find>
+      <find>providers</find>
+      <find>alia</find>
     </findStrings>
     <replaceStrings>
       <replace>@extends('app')</replace>
@@ -86,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../app/prizes/gifts" />
-        <option value="$PROJECT_DIR$/../storage/awards/gifts.txt" />
         <option value="$PROJECT_DIR$/../resources/views/game/result.blade.php" />
         <option value="$PROJECT_DIR$/../storage/awards/money.txt" />
         <option value="$PROJECT_DIR$/../storage/awards/money" />
@@ -130,13 +126,15 @@
         <option value="$PROJECT_DIR$/../database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/../database/seeds/CustomersTableSeeder.php" />
         <option value="$PROJECT_DIR$/../database/factories/CustomerFactory.php" />
-        <option value="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" />
         <option value="$PROJECT_DIR$/../database/migrations/2019_10_06_072009_create_customers_table.php" />
-        <option value="$PROJECT_DIR$/../routes/web.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/create.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/form.blade.php" />
-        <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
         <option value="$PROJECT_DIR$/../resources/views/customers/show.blade.php" />
+        <option value="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" />
+        <option value="$PROJECT_DIR$/../routes/web.php" />
+        <option value="$PROJECT_DIR$/../config/app.php" />
+        <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
+        <option value="$PROJECT_DIR$/../composer.json" />
       </list>
     </option>
   </component>
@@ -228,6 +226,10 @@
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
       <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
       <path value="$PROJECT_DIR$/../vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/../vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/../vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/../vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/../vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -273,6 +275,11 @@
             <path>
               <item name="." type="b2602c69:ProjectViewProjectNode" />
               <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,6 +311,11 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
               <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="." type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +357,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freeCodeGram" />
+    <property name="last_opened_file_path" value="$USER_HOME$/freeCodeGram" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -399,7 +411,7 @@
       <workItem from="1570706436716" duration="48936000" />
       <workItem from="1571029340815" duration="99000" />
       <workItem from="1571029487488" duration="123000" />
-      <workItem from="1571029764326" duration="12295000" />
+      <workItem from="1571029764326" duration="20628000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, &#10;Laravel Tutorial e06 - done">
       <created>1570345753362</created>
@@ -660,11 +672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571054339851</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="e39 - done&#10;&#10;Uploading profile images for Customers">
+      <created>1571065031599</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1571065031599</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124580000" />
+    <option name="totallyTimeSpent" value="132913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -760,7 +779,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Laravel Tutorial e17 - done" />
     <MESSAGE value="Laravel Tutorial e18 - done&#10;Refactoring" />
     <MESSAGE value="Laravel Tutorial e19 - done&#10;Setting mail deliveries&#10;mailtrap.io initialized" />
     <MESSAGE value="Laravel Tutorial e20 - done&#10;Mail deliveries set up" />
@@ -785,14 +803,10 @@
     <MESSAGE value="e36 - done&#10;&#10;Writing artisan commands using routes/console.php" />
     <MESSAGE value="e37 - done&#10;&#10;Model factories handling" />
     <MESSAGE value="e38 - done&#10;&#10;Factories set up:&#10;-Customer&#10;-Companies&#10;-Users" />
-    <option name="LAST_COMMIT_MESSAGE" value="e38 - done&#10;&#10;Factories set up:&#10;-Customer&#10;-Companies&#10;-Users" />
+    <MESSAGE value="e39 - done&#10;&#10;Uploading profile images for Customers" />
+    <option name="LAST_COMMIT_MESSAGE" value="e39 - done&#10;&#10;Uploading profile images for Customers" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../package.json" />
-    <entry file="file://$PROJECT_DIR$/../public/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/HomeController.php" />
-    <entry file="file://$PROJECT_DIR$/../resources/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/../resources/views/home.blade.php" />
     <entry file="file://$PROJECT_DIR$/../resources/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/../routes/api.php" />
     <entry file="file://$PROJECT_DIR$/../resources/views/nav.blade.php" />
@@ -901,9 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../resources/views/customers/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../resources/views/customers/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -918,27 +929,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="92" lean-forward="true" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../resources/views/customers/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../storage/app/public/uploads/jhKXVUgErM1IAulne9nILUN4qWjVm7CmixDDiDVL.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
+    <entry file="file://$PROJECT_DIR$/../resources/views/customers/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="595">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -953,6 +950,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../node_modules/lodash/update.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resources/views/customers/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
