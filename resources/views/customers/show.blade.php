@@ -6,9 +6,9 @@
 	<div class="row">
 		<div class="col-12">
 			<h1>Details for {{ $customer->name }}</h1>
-			<p><a href="/customers/{{ $customer->id }}/edit">Edit</a></p>
+			<p><a href="{{ route('customers.edit', ['customer' => $customer]) }}">Edit</a></p>
 
-			<form action="/customers/ {{ $customer->id }}" method="POST">
+			<form action="{{ route('customers.destroy', ['customer' => $customer]) }}" method="POST">
 				@method('DELETE')
 				@csrf
 
@@ -26,8 +26,10 @@
 	</div>
 
 	@if($customer->image)
-		<div class="row clo-12">
-			<img src="{{ asset('storage/' . $customer->image) }}" alt="" class="img-thumbnail">
+		<div class="row">
+			<div class="row col-12">
+				<img src="{{ asset('storage/' . $customer->image) }}" alt="" class="img-thumbnail">
+			</div>
 		</div>
 	@endif
 

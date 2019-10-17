@@ -34,6 +34,8 @@ class CustomersController extends Controller
 
     public function store()
     {
+        $this->authorize('create', Customer::class);
+
         $customer = Customer::create($this->validateRequest());
 
         $this->storeImage($customer);
@@ -49,6 +51,11 @@ class CustomersController extends Controller
 
         return view('customers.show', compact('customer'));
     }
+
+//    public function show($customer)
+//    {
+//        return view('customers.show', compact('customer'));
+//    }
 
     public function edit(Customer $customer)
     {
@@ -68,6 +75,8 @@ class CustomersController extends Controller
 
     public function destroy(Customer $customer)
     {
+        $this->authorize('delete', $customer);
+
         $customer->delete();
 
         return redirect('customers');

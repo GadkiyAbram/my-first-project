@@ -25,7 +25,7 @@ Route::post('customers', 'CustomersController@store')->name('customers.store');
 Route::get('customers/{customer}', 'CustomersController@show')->name('customers.show');
 Route::get('customers/{customer}/edit', 'CustomersController@edit')->name('customers.edit');
 Route::patch('customers/{customer}', 'CustomersController@update')->name('customers.update');
-Route::delete('customers/{customer}', 'CustomersController@destroy');
+Route::delete('customers/{customer}', 'CustomersController@destroy')->name('customers.destroy');
 
 //Route::resource('customers', 'CustomersController');
 
