@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/customers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customers/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +21,12 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+            <state relative-caret-position="306">
+              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -34,20 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../config/app.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../resources/views/customers/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="209" selection-start-line="209" selection-end-line="209" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -84,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../resources/views/game/result.blade.php" />
         <option value="$PROJECT_DIR$/../storage/awards/money.txt" />
         <option value="$PROJECT_DIR$/../storage/awards/money" />
         <option value="$PROJECT_DIR$/../storage/awards/gifts" />
@@ -133,8 +123,9 @@
         <option value="$PROJECT_DIR$/../resources/views/customers/edit.blade.php" />
         <option value="$PROJECT_DIR$/../routes/web.php" />
         <option value="$PROJECT_DIR$/../config/app.php" />
-        <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
         <option value="$PROJECT_DIR$/../composer.json" />
+        <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php" />
+        <option value="$PROJECT_DIR$/../resources/views/customers/index.blade.php" />
       </list>
     </option>
   </component>
@@ -230,6 +221,8 @@
       <path value="$PROJECT_DIR$/../vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/../vendor/intervention/image" />
       <path value="$PROJECT_DIR$/../vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/../vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/../vendor/moontoast/math" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -246,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,6 +345,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +354,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -411,7 +404,8 @@
       <workItem from="1570706436716" duration="48936000" />
       <workItem from="1571029340815" duration="99000" />
       <workItem from="1571029487488" duration="123000" />
-      <workItem from="1571029764326" duration="20628000" />
+      <workItem from="1571029764326" duration="20805000" />
+      <workItem from="1571233124032" duration="2357000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, &#10;Laravel Tutorial e06 - done">
       <created>1570345753362</created>
@@ -679,17 +673,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571065031599</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="e40 - done&#10;&#10;Fitting image to request width / height">
+      <created>1571210001997</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1571210001997</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132913000" />
+    <option name="totallyTimeSpent" value="135447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -779,7 +780,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Laravel Tutorial e18 - done&#10;Refactoring" />
     <MESSAGE value="Laravel Tutorial e19 - done&#10;Setting mail deliveries&#10;mailtrap.io initialized" />
     <MESSAGE value="Laravel Tutorial e20 - done&#10;Mail deliveries set up" />
     <MESSAGE value="Laravel Tutorial e21 - done&#10;Configurating login.&#10;&#10;OLD scheme: php artisan make:auth&#10;&#10;NEW one: &#10;- composer require laravel/ui&#10;- php artisan ui vue --auth&#10;- npm install&#10;- npm run dev / npm run watch" />
@@ -804,10 +804,10 @@
     <MESSAGE value="e37 - done&#10;&#10;Model factories handling" />
     <MESSAGE value="e38 - done&#10;&#10;Factories set up:&#10;-Customer&#10;-Companies&#10;-Users" />
     <MESSAGE value="e39 - done&#10;&#10;Uploading profile images for Customers" />
-    <option name="LAST_COMMIT_MESSAGE" value="e39 - done&#10;&#10;Uploading profile images for Customers" />
+    <MESSAGE value="e40 - done&#10;&#10;Fitting image to request width / height" />
+    <option name="LAST_COMMIT_MESSAGE" value="e40 - done&#10;&#10;Fitting image to request width / height" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../resources/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/../routes/api.php" />
     <entry file="file://$PROJECT_DIR$/../resources/views/nav.blade.php" />
     <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/TestingVueController.php" />
@@ -820,7 +820,6 @@
     <entry file="file://$PROJECT_DIR$/../app/Providers/EventServiceProvider.php" />
     <entry file="file://$PROJECT_DIR$/../config/queue.php" />
     <entry file="file://$PROJECT_DIR$/../resources/views/game/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/../resources/views/customers/index.blade.php" />
     <entry file="file://$PROJECT_DIR$/../database/migrations/2019_10_10_160136_create_profiles_table.php" />
     <entry file="file://$PROJECT_DIR$/../app/User.php" />
     <entry file="file://$PROJECT_DIR$/../app/Profile.php" />
@@ -970,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../resources/views/customers/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -991,6 +983,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -998,13 +997,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        <state relative-caret-position="306">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resources/views/customers/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
         </state>
       </provider>
     </entry>
